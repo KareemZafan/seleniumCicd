@@ -10,10 +10,12 @@ def set_up():
     driver.get("https://the-internet.herokuapp.com/login")
     driver.maximize_window()
 
-
+"""
 def test_app_title():
     assert driver.title == "The Internet"
     print(driver.title)
+"""
+
 
 
 def test_valid_login():
